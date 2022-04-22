@@ -11,6 +11,5 @@ galaxy_info:
   galaxy_tags:
     - nginx
 
-dependencies:
-  - docker
+dependencies: []
   
