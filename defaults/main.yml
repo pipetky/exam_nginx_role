@@ -2,5 +2,5 @@
 server_name: webapp
 backends:
   - webapp_0:5000
-  - webapp_1:5001 
-  - webapp_2:5002 
+  - webapp_1:5000
+  - webapp_2:5000 
