@@ -1,5 +1,6 @@
 ---
 server_name: webapp
+backend_count: 3
 backends:
   - webapp_0:5000
   - webapp_1:5000
