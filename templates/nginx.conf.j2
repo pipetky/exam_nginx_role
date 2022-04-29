@@ -59,7 +59,7 @@ http {
 	##
 
 upstream backend {
-	{% for i in range( int(backend_count) ) %}
+	{% for i in range( backend_count | int ) %}
 	server {{ server_name }}_{{ i }}:5000;
 	{% endfor %}
 }
